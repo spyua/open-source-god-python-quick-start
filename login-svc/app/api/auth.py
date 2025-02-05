@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 from jose import jwt
 from passlib.context import CryptContext
 from app.schemas import Token, LoginRequest
-from app.repository import UserRepository
+from app.repositories import UserRepository
 from app.dependencies import get_user_repository
 import os
 

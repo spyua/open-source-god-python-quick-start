@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends, HTTPException
 from app.schemas import UserCreate, UserResponse
-from app.repository import UserRepository
+from app.repositories import UserRepository
 from app.dependencies import get_user_repository
 
 router = APIRouter()

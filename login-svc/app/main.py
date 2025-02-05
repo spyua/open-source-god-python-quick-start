@@ -1,6 +1,5 @@
 from fastapi import FastAPI
-from app.auth import router as auth_router
-from app.users import router as users_router
+from app.api import auth_router, users_router
 from app.database import engine, Base
 
 # 建立資料庫表

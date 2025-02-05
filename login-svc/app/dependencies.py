@@ -1,6 +1,6 @@
 import os
-from app.repository import UserRepository
-from app.repository_mock import MockUserRepository
+from app.repositories import UserRepository
+from app.repositories import MockUserRepository
 from app.schemas import UserCreate, UserResponse
 from typing import List, Optional
 from fastapi import Depends
